@@ -13,7 +13,7 @@ with open('README.md')as f:
 
 setup(
     name="attackcti",
-    version="0.3.8",
+    version="0.4.4",
     author="Roberto Rodriguez",
     description="MITRE ATTACK CTI Python Libary",
     long_description=long_description,
@@ -29,6 +29,7 @@ setup(
     install_requires=[
         'stix2',
         'taxii2-client',
+        'pydantic'
     ],
     license='BSD',
     classifiers=[
